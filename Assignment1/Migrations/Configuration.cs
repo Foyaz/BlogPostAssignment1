@@ -37,6 +37,9 @@
                 adminUser = new ApplicationUser();
                 adminUser.UserName = "admin@assignments.com";
                 adminUser.Email = "admin@assignments.com";
+                adminUser.FirstName = "Admin";
+                adminUser.LastName = "User";
+                adminUser.DisplayName = "Admin User";
                 userManager.Create(adminUser, "Security:99");
             }
             else
