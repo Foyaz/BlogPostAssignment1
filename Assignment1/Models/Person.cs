@@ -12,7 +12,7 @@ namespace Assignment1.Models
         public string LastName { get; set; }
         public string NickName { get; set; }
         public string Gender { get; set; }
-        public int DOB { get; set; }
+        public DateTime DOB { get; set; }
         public string Email { get; set; }
     }
 }
